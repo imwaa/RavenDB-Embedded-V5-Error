@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing RavenDB v5", "RavenDB-UnitTest-Error\Testing RavenDB v5.csproj", "{10C6B2C0-E9FD-4A33-88EF-C73D4AB1AE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing RavenDB v4.1.6", "Testing RavenDB v4.1.6\Testing RavenDB v4.1.6.csproj", "{F8F3B9A3-195B-4891-A81F-169FCAF66170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C6B2C0-E9FD-4A33-88EF-C73D4AB1AE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C6B2C0-E9FD-4A33-88EF-C73D4AB1AE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C6B2C0-E9FD-4A33-88EF-C73D4AB1AE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C6B2C0-E9FD-4A33-88EF-C73D4AB1AE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F3B9A3-195B-4891-A81F-169FCAF66170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F3B9A3-195B-4891-A81F-169FCAF66170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F3B9A3-195B-4891-A81F-169FCAF66170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F3B9A3-195B-4891-A81F-169FCAF66170}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90430356-A416-4882-ACBF-AB85C9A3B75E}
+	EndGlobalSection
+EndGlobal
