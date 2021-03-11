@@ -1,0 +1,1570 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\walid\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\BouncyCastle.Crypto.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\BouncyCastle.Crypto.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\BouncyCastle.Crypto.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\BouncyCastle.Crypto.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\CsvHelper.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\CsvHelper.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\CsvHelper.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\CsvHelper.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\DasMulli.Win32.ServiceUtils.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\DasMulli.Win32.ServiceUtils.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\DasMulli.Win32.ServiceUtils.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\DasMulli.Win32.ServiceUtils.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Esprima.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Esprima.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Esprima.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Esprima.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\GeoAPI.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\GeoAPI.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\GeoAPI.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\GeoAPI.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Google.Protobuf.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Google.Protobuf.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Google.Protobuf.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Google.Protobuf.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Jint.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Jint.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Jint.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Jint.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Lambda2Js.Signed.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Lambda2Js.Signed.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Lambda2Js.Signed.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Lambda2Js.Signed.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Lucene.Net.Contrib.Spatial.NTS.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Lucene.Net.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Lucene.Net.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Lucene.Net.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Lucene.Net.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Connections.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Hosting.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Hosting.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Hosting.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Hosting.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Hosting.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Http.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Http.Extensions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.Features.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Http.Features.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Http.Features.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Http.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Http.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Http.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.ResponseCompression.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Https.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.Server.Kestrel.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.WebSockets.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.WebSockets.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.WebSockets.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.AspNetCore.WebUtilities.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.CodeAnalysis.CSharp.Workspaces.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.CodeAnalysis.CSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.CodeAnalysis.Workspaces.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.CodeAnalysis.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.CodeAnalysis.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.CodeAnalysis.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.CommandLineUtils.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.Binder.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.CommandLine.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.FileExtensions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.Json.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.Json.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.Json.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.UserSecrets.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.UserSecrets.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.UserSecrets.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.UserSecrets.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Configuration.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Configuration.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Configuration.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.DependencyInjection.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.DependencyInjection.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.DependencyInjection.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.FileProviders.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.FileProviders.Physical.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.FileSystemGlobbing.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Hosting.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Logging.Abstractions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Logging.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Logging.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Logging.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Logging.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.ObjectPool.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.ObjectPool.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.ObjectPool.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.ObjectPool.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Options.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Options.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Options.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Options.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Primitives.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Extensions.Primitives.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Extensions.Primitives.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Extensions.Primitives.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Net.Http.Headers.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Microsoft.Net.Http.Headers.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Microsoft.Net.Http.Headers.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Microsoft.Net.Http.Headers.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\MySql.Data.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\MySql.Data.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\MySql.Data.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\MySql.Data.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\NCrontab.Advanced.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\NCrontab.Advanced.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\NCrontab.Advanced.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\NCrontab.Advanced.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\NetTopologySuite.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\NetTopologySuite.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\NetTopologySuite.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\NetTopologySuite.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Newtonsoft.Json.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Newtonsoft.Json.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Newtonsoft.Json.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Newtonsoft.Json.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Npgsql.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Npgsql.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Npgsql.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Npgsql.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Oracle.ManagedDataAccess.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Oracle.ManagedDataAccess.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Oracle.ManagedDataAccess.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Oracle.ManagedDataAccess.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Client.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Client.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Raven.Client.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Raven.Client.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Server.deps.json" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Server.deps.json')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Raven.Server.deps.json</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Raven.Server.deps.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Server.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Server.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Raven.Server.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Raven.Server.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Server.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Server.runtimeconfig.json')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Raven.Server.runtimeconfig.json</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Raven.Server.runtimeconfig.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Studio.zip" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Raven.Studio.zip')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Raven.Studio.zip</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Raven.Studio.zip</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\SharpSnmpLib.Engine.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\SharpSnmpLib.Engine.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\SharpSnmpLib.Engine.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\SharpSnmpLib.Engine.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\SharpSnmpLib.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\SharpSnmpLib.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\SharpSnmpLib.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\SharpSnmpLib.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Sparrow.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Sparrow.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Sparrow.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Sparrow.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Spatial4n.Core.NTS.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Spatial4n.Core.NTS.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Spatial4n.Core.NTS.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Spatial4n.Core.NTS.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.AttributedModel.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.AttributedModel.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Composition.AttributedModel.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Composition.AttributedModel.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.Convention.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.Convention.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Composition.Convention.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Composition.Convention.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.Hosting.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.Hosting.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Composition.Hosting.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Composition.Hosting.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.Runtime.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.Runtime.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Composition.Runtime.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Composition.Runtime.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.TypedParts.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Composition.TypedParts.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Composition.TypedParts.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Composition.TypedParts.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Configuration.ConfigurationManager.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Configuration.ConfigurationManager.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Configuration.ConfigurationManager.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Configuration.ConfigurationManager.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Data.SqlClient.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Data.SqlClient.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Data.SqlClient.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Data.SqlClient.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.IO.Pipelines.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.IO.Pipelines.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.IO.Pipelines.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.IO.Pipelines.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Net.WebSockets.WebSocketProtocol.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Runtime.CompilerServices.Unsafe.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Security.Cryptography.ProtectedData.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Security.Cryptography.ProtectedData.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Security.Cryptography.ProtectedData.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Security.Cryptography.ProtectedData.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Security.Permissions.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Security.Permissions.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Security.Permissions.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Security.Permissions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Text.Encoding.CodePages.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Text.Encoding.CodePages.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Text.Encoding.CodePages.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Text.Encoding.CodePages.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Text.Encodings.Web.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\System.Text.Encodings.Web.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\System.Text.Encodings.Web.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\System.Text.Encodings.Web.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Voron.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\Voron.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\Voron.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\Voron.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\cs\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\cs\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\cs\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\cs\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\cs\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\cs\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\de\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\de\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\de\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\de\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\de\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\de\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\de\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\es\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\es\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\es\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\es\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\es\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\es\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\es\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\fr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\fr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\fr\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\fr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\fr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\fr\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\it\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\it\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\it\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\it\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\it\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\it\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\it\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ja\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ja\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ja\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ja\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ja\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ja\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ko\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ko\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ko\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ko\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ko\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ko\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.arm.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.arm.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\libsodium.arm.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\libsodium.arm.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x64.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x64.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\libsodium.x64.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\libsodium.x64.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x64.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x64.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\libsodium.x64.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\libsodium.x64.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x86.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x86.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\libsodium.x86.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\libsodium.x86.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x86.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\libsodium.x86.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\libsodium.x86.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\libsodium.x86.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pl\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pl\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pl\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pl\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pl\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pl\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pt-BR\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pt-BR\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pt-BR\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\pt-BR\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\pt-BR\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ru\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ru\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ru\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ru\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\ru\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\ru\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-arm\native\libuv.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-arm\native\libuv.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\linux-arm\native\libuv.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\linux-arm\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\linux-arm\native\libuv.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-arm64\native\libuv.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-arm64\native\libuv.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\linux-arm64\native\libuv.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\linux-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\linux-arm64\native\libuv.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-armel\native\libuv.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-armel\native\libuv.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\linux-armel\native\libuv.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\linux-armel\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\linux-armel\native\libuv.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-x64\native\libuv.so" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\linux-x64\native\libuv.so')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\linux-x64\native\libuv.so</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\linux-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\linux-x64\native\libuv.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\osx\native\libuv.dylib" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\osx\native\libuv.dylib')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\osx\native\libuv.dylib</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\osx\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\osx\native\libuv.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\unix\lib\netcoreapp2.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-arm\native\libuv.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-arm\native\libuv.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win-arm\native\libuv.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win-arm\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win-arm\native\libuv.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-arm64\native\sni.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-arm64\native\sni.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win-arm64\native\sni.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win-arm64\native\sni.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x64\native\libuv.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x64\native\libuv.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win-x64\native\libuv.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win-x64\native\libuv.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x64\native\sni.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x64\native\sni.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win-x64\native\sni.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win-x64\native\sni.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x86\native\libuv.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x86\native\libuv.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win-x86\native\libuv.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win-x86\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win-x86\native\libuv.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x86\native\sni.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win-x86\native\sni.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win-x86\native\sni.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win-x86\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win-x86\native\sni.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win\lib\netcoreapp2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win\lib\netcoreapp2.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\runtimes\win\lib\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\tr\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\tr\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hans\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hans\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hans\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hans\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hans\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hant\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hant\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hant\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll" Condition="Exists('$(NuGetPackageRoot)ravendb.embedded\4.1.6\contentFiles\any\any\RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll')">
+      <NuGetPackageId>RavenDB.Embedded</NuGetPackageId>
+      <NuGetPackageVersion>4.1.6</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll</TargetPath>
+      <DestinationSubDirectory>RavenDBServer\zh-Hant\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>RavenDBServer\zh-Hant\Microsoft.CodeAnalysis.resources.dll</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\Microsoft.TestPlatform.TestHost.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\Microsoft.TestPlatform.TestHost.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\16.7.1\build\netstandard1.0\Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\16.7.1\build\netstandard1.0\Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\walid\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+  </PropertyGroup>
+</Project>

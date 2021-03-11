@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" vwDay="2019-11-02" creationTimeStamp="2019-11-03T05:38:05.2026503+01:00" source="GfK Belgium" xmlns="http://www.gfk.com/audimetry.GfK.20170411.xsd">
+  <Station stationID="1" stationName="NPO1" />
+  <Station stationID="2" stationName="NPO2" />
+  <Station stationID="3" stationName="EEN" />
+  <Station stationID="4" stationName="CANVAS" />
+  <Station stationID="5" stationName="LA UNE" />
+  <Station stationID="6" stationName="LA DEUX" />
+  <Station stationID="7" stationName="DUITSLAND 1 (ARD)" />
+  <Station stationID="8" stationName="DUITSLAND 2 (ZDF)" />
+  <Station stationID="11" stationName="BBC1" />
+  <Station stationID="12" stationName="BBC2" />
+  <Station stationID="15" stationName="TF1" />
+  <Station stationID="16" stationName="FRANCE 2" />
+  <Station stationID="17" stationName="FRANCE 3" />
+  <Station stationID="19" stationName="TV5" />
+  <Station stationID="24" stationName="VCR" />
+  <Station stationID="31" stationName="RAIUNO" />
+  <Station stationID="40" stationName="CARTOON NETWORK (FR)" />
+  <Station stationID="47" stationName="NPO3" />
+  <Station stationID="52" stationName="CNN" />
+  <Station stationID="58" stationName="RTL-TVI" />
+  <Station stationID="59" stationName="VTM" />
+  <Station stationID="60" stationName="Q2" />
+  <Station stationID="64" stationName="BE 1" />
+  <Station stationID="89" stationName="ARTE" />
+  <Station stationID="97" stationName="EURONEWS" />
+  <Station stationID="142" stationName="VIER" />
+  <Station stationID="144" stationName="CLUB RTL" />
+  <Station stationID="154" stationName="BBC WORLD" />
+  <Station stationID="214" stationName="EUROSPORT FRANCE" />
+  <Station stationID="254" stationName="NATIONAL GEOGRAPHIC" />
+  <Station stationID="255" stationName="COMEDY CENTRAL" />
+  <Station stationID="258" stationName="KANAAL Z (NL)" />
+  <Station stationID="263" stationName="VITAYA" />
+  <Station stationID="266" stationName="AB3" />
+  <Station stationID="268" stationName="ABXplore" />
+  <Station stationID="270" stationName="TV BRUSSEL" />
+  <Station stationID="271" stationName="BX1" />
+  <Station stationID="272" stationName="AVS GENT" />
+  <Station stationID="274" stationName="EURO_SPORT" />
+  <Station stationID="275" stationName="RTV TURNHOUT" />
+  <Station stationID="276" stationName="RTV MECHELEN" />
+  <Station stationID="278" stationName="WTV" />
+  <Station stationID="279" stationName="FOCUS TV" />
+  <Station stationID="280" stationName="TV Oost" />
+  <Station stationID="281" stationName="TVL" />
+  <Station stationID="282" stationName="ROB TV" />
+  <Station stationID="283" stationName="CANAL Z (FR)" />
+  <Station stationID="285" stationName="RING TV" />
+  <Station stationID="286" stationName="CARTOON NETWORK (NL)" />
+  <Station stationID="287" stationName="ATV" />
+  <Station stationID="288" stationName="NICKELODEON (FR)" />
+  <Station stationID="311" stationName="AUTRE / ANDERE TV" />
+  <Station stationID="339" stationName="CONNECTED TV" />
+  <Station stationID="341" stationName="PLAY" />
+  <Station stationID="342" stationName="DVB" />
+  <Station stationID="343" stationName="SATELLITE" />
+  <Station stationID="345" stationName="DVD+Perif." />
+  <Station stationID="352" stationName="PLUG RTL" />
+  <Station stationID="353" stationName="NICKELODEON" />
+  <Station stationID="355" stationName="VIJF" />
+  <Station stationID="364" stationName="SPORTING TELENET 1" />
+  <Station stationID="365" stationName="SPORTING TELENET 2" />
+  <Station stationID="367" stationName="MTV (NL)" />
+  <Station stationID="368" stationName="MTV (FR)" />
+  <Station stationID="379" stationName="DISCOVERY SCIENCE" />
+  <Station stationID="380" stationName="INVESTIGATION DISCOVERY" />
+  <Station stationID="382" stationName="STUDIO 100 TV" />
+  <Station stationID="387" stationName="NICK JR (NL)" />
+  <Station stationID="397" stationName="FRANCE 4" />
+  <Station stationID="398" stationName="FRANCE 5" />
+  <Station stationID="400" stationName="LCI" />
+  <Station stationID="401" stationName="TV BREIZH" />
+  <Station stationID="404" stationName="ANIMAL PLANET" />
+  <Station stationID="407" stationName="CAZ" />
+  <Station stationID="470" stationName="(BE) LA3" />
+  <Station stationID="600" stationName="VTM Kids" />
+  <Station stationID="603" stationName="DISCOVERY CHANNEL VL" />
+  <Station stationID="606" stationName="DISNEY CHANNEL VL" />
+  <Station stationID="607" stationName="DISNEY CHANNEL FR" />
+  <Station stationID="608" stationName="RADIO CONTACT" />
+  <Station stationID="609" stationName="DISNEY JUNIOR NL" />
+  <Station stationID="610" stationName="GULLI" />
+  <Station stationID="611" stationName="DISNEY XD FR" />
+  <Station stationID="612" stationName="NJAM!" />
+  <Station stationID="615" stationName="NICK JR (FR)" />
+  <Station stationID="616" stationName="Q MUSIC" />
+  <Station stationID="617" stationName="VOO FOOT" />
+  <Station stationID="619" stationName="DISNEY JUNIOR FR" />
+  <Station stationID="620" stationName="OP12" />
+  <Station stationID="622" stationName="MENT TV NL" />
+  <Station stationID="623" stationName="NAT GEO FR" />
+  <Station stationID="626" stationName="FOX" />
+  <Station stationID="627" stationName="13IEME RUE FR" />
+  <Station stationID="632" stationName="SYFY FR" />
+  <Station stationID="638" stationName="DOBBIT TV" />
+  <Station stationID="639" stationName="PLATTELANDSTELEVISIE" />
+  <Station stationID="640" stationName="HISTORY CHANNEL NL" />
+  <Station stationID="641" stationName="BOOMERANG FR" />
+  <Station stationID="642" stationName="NAT GEO WILD FR" />
+  <Station stationID="644" stationName="XITE" />
+  <Station stationID="645" stationName="TLC" />
+  <Station stationID="647" stationName="PURE VISION" />
+  <Station stationID="648" stationName="BEL RTL &amp; TELEVISION" />
+  <Station stationID="650" stationName="NAT GEO WILD NL" />
+  <Station stationID="652" stationName="DOBBIT FR" />
+  <Station stationID="655" stationName="VTM Kids Jr." />
+  <Station stationID="658" stationName="STUDIO 100 TV FR" />
+  <Station stationID="659" stationName="ELEVEN NL" />
+  <Station stationID="660" stationName="ELEVEN FR" />
+  <Station stationID="662" stationName="ZES" />
+  <Station stationID="663" stationName="NRJ HITS TV" />
+  <Station stationID="664" stationName="VICELAND VL" />
+  <Station stationID="665" stationName="ELEVEN 2 NL" />
+  <Station stationID="666" stationName="ELEVEN 2 FR" />
+  <Station stationID="667" stationName="SPIKE" />
+  <Station stationID="668" stationName="VICELAND FR" />
+  <Station stationID="669" stationName="ECLIPS TV" />
+  <Station stationID="670" stationName="TMC" />
+  <Station stationID="671" stationName="DISCOVERY WORLD" />
+  <Station stationID="672" stationName="BABY TV" />
+  <Station stationID="673" stationName="BBC ENTERTAINMENT" />
+  <Station stationID="674" stationName="STINGRAY HITS FR" />
+  <Station stationID="675" stationName="PLAY SPORTS 3" />
+  <Station stationID="676" stationName="LES NEWS 24" />
+  <Station stationID="677" stationName="OUTtv" />
+</Stations>
